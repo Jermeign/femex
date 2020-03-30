@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Righteous|Special+Elite&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+.join-us-page-container {
+  margin: 150px auto 0;
+  width: 50%;
+  box-shadow: 10px 10px 5px grey;
+  background-color: #d2d2d2;
+}
+
+.page-header-container {
+  background-color: #fff;
+  padding: 20px;
+
+}
+
+.header-text {
+  color: #3c88c1;
+}
+
+.sub-header-text {
+  color: #6df061;
+}
+
+.header-desc {
+  color: #8d8d8d;
+}
+
+.cost-presentation-div {
+  background-color: #3c889f;
+  padding: 20px;
+  width: 50%;
+}
+
+.cost-presentation-header {
+  font-weight: bolder;
+}
+
+.cost-presentation-price {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+.cost-presentation-btn {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  color: #FFFFFF !important;
+  font-size: 18px;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #6DF061;
+  text-decoration: none;
+  cursor: pointer;
+  width: 170px;
+  display: inline-block;
+  text-align: center;
+  margin: 25px 30px;
+}
+.cost-presentation-btn:hover {
+  color: #FFFFFF !important;
+  background: #46EABC;
+  text-decoration: none;
+}
+
+
+.why-us-container {
+  background-color: #4bd7db;
+  padding: 20px;
+  width: 50%;
+}
+
+.why-us-header {
+  font-weight: bolder;
+}
+
+.why-us-list {
+  list-style-type: none;
+}
+
+.why-us-list-item {
+  line-height: 1.5;
+}
+
+.join-us-details-div {
+  display: flex;
+  color: #fff;
+}
