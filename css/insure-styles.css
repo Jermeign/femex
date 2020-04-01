@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans|Orbitron&display=swap');
+
+body {
+  margin: auto;
+  padding: 0;
+}
+
+.navigation-div {
+  height: 65px;
+}
+
+.jumbotron {
+  background-color: #362656;
+  margin: 0 auto 250px;
+}
+
+.jumbotron-content {
+  color: #fff;
+  display: flex;
+  width: 80%;
+  max-height: 450px;
+  margin: auto;
+  padding: 75px;
+}
+
+.jumbotron-content p {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.jumbotron-left {
+  display: block;
+}
+
+.jumbotron-left hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  width: 30%;
+  margin: 0;
+}
+
+.jumbotron-header {
+  font-size: 3.5rem;
+}
+
+.jumbotron-btn {
+  font-family: arial;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  font-size: 12px;
+  padding: 10px 25px;
+  border: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: block;
+  width: 80px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.jumbotron-btn:hover {
+  color: #FFFFFF !important;
+  background-color: rgba(219, 219, 219, 0.5);
+}
+
+.jumbotron-right {
+  display: block;
+}
+
+.jumbotron-intro-img {
+  margin-left: 20px;
+}
+
+.middle-container {
+  margin: auto;
+  padding: 75px;
+  width: 80%;
+}
+
+.middle-container hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  width: 15%;
+  margin: 0;
+}
+
+.middle-container-header {
+  font-size: 3.5rem;
+  margin: 75px 0;
+}
+
+.difference-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.difference-section {
+  margin-right: 20px;
+}
+
+.difference-section p {
+  font-family: 'DM Sans', sans-serif;
+  font-color: rgba(178, 178, 178, 0.3);
+  font-size: .8rem;
+}
+
+.difference-img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 25px;
+}
+
+.more-info-poster {
+  background-color: #362656;
+  display: block;
+  margin: 100px auto;
+}
+
+.more-info-content {
+  background-color: #362656;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-info-header {
+  color: #fff;
+  font-size: 3.0rem;
+  width: 50%;
+  margin-right: 210px;
+  float: left;
+}
+
+.more-info-btn {
+  font-family: arial;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  font-size: 12px;
+  padding: 10px 25px;
+  border: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  position: relative;
+  float: right;
+}
+
+.more-info-btn:hover {
+  color: #FFFFFF !important;
+  background-color: rgba(219, 219, 219, 0.5);
+}
+
+.page-footer-container {
+  background-color: rgba(229, 229, 229, 0.3);
+  margin: auto;
+}
+
+.page-footer-container>hr {
+  width: 80%;
+}
+
+.page-footer-header-div {
+  width: 80%;
+  margin: auto;
+  padding: 75px;
+  align-items: center;
+  display: block;
+}
+
+.footer-header {
+  float: left;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.social-media-links {
+  float: right;
+}
+
+.social-media-img {
+  margin-left: 15px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto;
+  padding: 0 75px 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.links-col-header {
+  color: rgba(184, 184, 184, 0.8);
+}
+
+.links-col-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+.links-col-item {
+  font-size: 0.7rem;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.links-col-item>a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation-div {
+  display: block;
+  align-items: center;
+}
+
+.nav-content-div {
+  display: flex;
+  align-items: center;
+  padding: 0 125px;
+  justify-content: space-between;
+}
+
+.logo {
+  float: left;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.logo-home-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-links-div {
+  float: right;
+  display: inline;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ccc;
+  font-family: 'DM Sans', sans-serif;
+  font-size: .7rem;
+  margin-right: 18px;
+  line-height: 35px;
+}
+
+.nav-link:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.nav-link-btn {
+  font-family: arial;
+  font-weight: bold;
+  color: #000000 !important;
+  font-size: 12px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  position: relative;
+  float: right;
+}
+
+.nav-link-btn:hover {
+  background-color: rgba(219, 219, 219, 0.5);
+}
